@@ -15,7 +15,7 @@ const LeftNav = () => {
     }, []);
 
     return (
-        <div>
+        <div className='position-sticky top-0 mt-3'>
             <h4 className='mb-3'>All Category</h4>
             <div className='ps-3'>
                 {

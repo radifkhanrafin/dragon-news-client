@@ -5,7 +5,7 @@ import { FaGofore, FaGithub, FaFacebook, FaInstagram, FaTwitter } from 'react-ic
 import QZone from '../QZone/QZone';
 const RightNav = () => {
     return (
-        <div>
+        <div className='position-sticky top-0 mt-3'>
             <h3>Login With</h3>
             <Button className='d-block mb-3 w-100' variant="outline-primary">  <FaGofore />Primary</Button>
             <Button className='d-block  w-100' variant="outline-secondary"><FaGithub /> Secondary</Button>

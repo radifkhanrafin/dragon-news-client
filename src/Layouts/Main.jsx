@@ -6,6 +6,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import LeftNav from '../Shared/LeftNav/LeftNav';
 import RightNav from '../Shared/RightNav/RightNav';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import MainContent from '../MainContent/MainContent';
 
 const Main = () => {
     return (
@@ -16,8 +17,8 @@ const Main = () => {
                     <Col lg={3}>
                         <LeftNav></LeftNav>
                     </Col>
-                    <Col lg={6}>
-                       <h1>main content</h1>
+                    <Col  lg={6}>
+                       <MainContent></MainContent>
                     </Col>
                     <Col lg={3}>
                         <RightNav></RightNav>
