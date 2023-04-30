@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import React from 'react';
 import Header from '../Shared/Header/Header';
 import Footer from '../Shared/Footer/Footer';
@@ -8,19 +7,14 @@ import RightNav from '../Shared/RightNav/RightNav';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MainContent from '../MainContent/MainContent';
 import { Outlet } from 'react-router-dom';
-import NavigationBar from '../Shared/NavigationBar/NavigationBar';
 
-const Main = () => {
+const News_Page = () => {
     return (
         <div>
             <Header></Header>
-            <NavigationBar></NavigationBar>
             <Container>
                 <Row>
-                    <Col lg={3}>
-                        <LeftNav></LeftNav>
-                    </Col>
-                    <Col lg={6}>
+                    <Col lg={9}>
                         {/* <MainContent></MainContent> */}
                         <Outlet></Outlet>
                     </Col>
@@ -34,4 +28,4 @@ const Main = () => {
     );
 };
 
-export default Main;
+export default News_Page;

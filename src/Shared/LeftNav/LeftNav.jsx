@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import Editorinside from '../../News/EditorInsides/Editorinside';
 
 const LeftNav = () => {
     const [categoris, setCategoris] = useState([])
@@ -26,6 +27,7 @@ const LeftNav = () => {
                     </p>)
                 }
             </div>
+            <Editorinside></Editorinside>
         </div>
     );
 };
